@@ -41,3 +41,6 @@ take_a_number(katz_deli, "Mitch")
 take_a_number(katz_deli, 67)
 
 now_serving(katz_deli)
+now_serving(katz_deli)
+now_serving(katz_deli)
+
