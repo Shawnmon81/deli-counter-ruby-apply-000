@@ -33,7 +33,6 @@ def now_serving(line)
     puts "Now serving #{line[0]}"
     line.shift
   end
-
 end
 
 
