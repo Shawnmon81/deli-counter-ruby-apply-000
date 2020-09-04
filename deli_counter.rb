@@ -27,7 +27,7 @@ def take_a_number(deli_line, name)
 end
 
 def now_serving(line)
-  if line == 0
+  if line.length == 0
     puts "The line is empty."
   else
     puts "Now serving #{line[0]}"
