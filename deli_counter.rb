@@ -26,4 +26,7 @@ def take_a_number(deli_line, name)
     puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
 
+
+
 take_a_number(katz_deli, "Mitch")
+take_a_number(katz_deli, 67)
