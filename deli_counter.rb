@@ -21,7 +21,7 @@ line(katz_deli)
 line(other_deli)
 line(another_deli)
 
-def take_a_number(deli_array, name)
-    deli_array.push(name)
-    puts "Welcome #{name}! You are #{deli_array.length} in line."
+def take_a_number(line, name)
+    line.push(name)
+    puts "Welcome #{name}! You are #{line.length} in line."
 end
