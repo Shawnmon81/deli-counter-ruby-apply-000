@@ -24,9 +24,4 @@ line(another_deli)
 def take_a_number(line, name)
     line.push(name)
     puts "Welcome #{name}! You are #{line.length} in line."
-    if line.length = 0
-      puts "The line is empty."
-  else
-    puts line(deli_array)
-  end
 end
