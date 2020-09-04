@@ -26,6 +26,16 @@ def take_a_number(deli_line, name)
     puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
 
+def now_serving(line)
+  if line == 0
+    puts "The line is empty."
+  else
+    puts "Now serving #{line[0]}"
+    line.shift
+  end
+
+end
+
 
 
 take_a_number(katz_deli, "Mitch")
