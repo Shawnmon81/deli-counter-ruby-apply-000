@@ -21,9 +21,9 @@ line(katz_deli)
 line(other_deli)
 line(another_deli)
 
-def take_a_number(line, name)
-    line.push(name)
-    puts "Welcome, #{name}. You are number #{line.length} in line."
+def take_a_number(deli_line, name)
+    deli_line.push(name)
+    puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
 
 take_a_number(katz_deli, "Mitch")
