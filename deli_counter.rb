@@ -20,3 +20,10 @@ end
 line(katz_deli)
 line(other_deli)
 line(another_deli)
+
+def take_a_number(deli_array, name)
+  if deli_array >= 0
+    deli_array.push(name)
+    puts "Welcome #{name}! You are #{deli_array.length} in line."
+  end
+end
