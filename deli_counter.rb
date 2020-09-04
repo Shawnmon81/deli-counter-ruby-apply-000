@@ -22,9 +22,8 @@ line(other_deli)
 line(another_deli)
 
 def take_a_number(line, name)
+  if line.length >= 0
     line.push(name)
     puts "Welcome #{name}! You are #{line.length} in line."
-    if line.length <= 0
-      break
-    end
+  end
 end
