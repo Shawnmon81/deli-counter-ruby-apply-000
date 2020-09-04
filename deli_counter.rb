@@ -17,11 +17,11 @@ def line(deli_array) #define line method referring to katz_deli array
   end #if there is no one in the line, meaning the katz_deli array is empty, puts "the line is empty".
 end
 
-line(katz_deli) 
+line(katz_deli)
 line(other_deli)
 line(another_deli)
 
-def take_a_number(deli_line, name) #method welcomes the 
+def take_a_number(deli_line, name) #method welcomes the
     deli_line.push(name)
     puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
@@ -41,4 +41,3 @@ take_a_number(katz_deli, "Mitch")
 take_a_number(katz_deli, 67)
 
 now_serving(another_deli)
-
